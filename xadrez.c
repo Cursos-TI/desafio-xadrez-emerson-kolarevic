@@ -28,5 +28,40 @@ int main() {
     // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
     // Inclua o uso de continue e break dentro dos loops.
 
+    printf("\n---- Inicio de Movimentações das Peças do Xadrez ----\n");
+
+    // Movimentação para a Torre
+
+    int t;
+
+    printf("\nMovimento da Torre - 5 casas para a direita\n\n");
+
+    for (t = 1; t <= 5; t++) {
+        printf("Direita\n");
+    }
+
+    // Movimentação para o Bispo
+
+    int b = 1;
+
+    printf("\nMovimento do Bispo - 5 casas para cima e a direita\n\n");
+
+    do {
+        printf("Acima => Direita\n");
+        b++;
+    } while (b <= 5);
+
+    // Movimentações para a Rainha
+
+    int r = 1;
+
+    printf("\nMovimento da Rainha - 8 casas para a esquerda\n\n");
+
+    while (r <= 8) {
+        printf("Esquerda\n");
+        r++;}
+    
+    printf("\n--- Fim de Movimentos ---\n");
+
     return 0;
 }
